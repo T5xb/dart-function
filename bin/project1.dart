@@ -3,6 +3,8 @@ void main() {
   print('Hello world');
 }
 
-class Person() {
-
+class Person {
+  String? name;
+  int? age;
+  Person({name, age});
 }
